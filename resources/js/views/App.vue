@@ -1,5 +1,6 @@
 <template>
     <section>
+
         <HomePage />
     </section>
 </template>
@@ -8,7 +9,7 @@
     import HomePage from '../pages/HomePage.vue'
     export default{
         components: {
-            HomePage
+            HomePage,
         }
     };
 </script>
