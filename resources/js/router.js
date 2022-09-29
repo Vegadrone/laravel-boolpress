@@ -3,7 +3,7 @@ import VueRouter from 'vue-router';
 
 //!Importiamo le pagine singole
 import HomePage from './pages/HomePage';
-import ContactsPage from './pages/ContactsPage'; ù
+import ContactsPage from './pages/ContactsPage';
 import AboutPage from './pages/AboutPage';
 
 //!Istanza di VueRouter
