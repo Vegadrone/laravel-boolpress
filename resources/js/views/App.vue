@@ -1,14 +1,14 @@
 <template>
     <section>
-        <MainComponent />
+        <HomePage />
     </section>
 </template>
 
 <script>
-    import MainComponent from '../components/Main.vue'
+    import HomePage from '../pages/HomePage.vue'
     export default{
         components: {
-            MainComponent
+            HomePage
         }
     };
 </script>
