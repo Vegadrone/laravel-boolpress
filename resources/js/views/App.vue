@@ -1,7 +1,10 @@
 <template>
     <section>
+        <div>
+            <router-link to="/about">clicca qui</router-link>
+        </div>
         <HomePage />
-
+        <router-view></router-view>
     </section>
 </template>
 

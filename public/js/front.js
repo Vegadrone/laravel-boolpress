@@ -2320,7 +2320,11 @@ var render = function render() {
   var _vm = this,
       _c = _vm._self._c;
 
-  return _c("section", [_c("HomePage")], 1);
+  return _c("section", [_c("div", [_c("router-link", {
+    attrs: {
+      to: "/about"
+    }
+  }, [_vm._v("clicca qui")])], 1), _vm._v(" "), _c("HomePage"), _vm._v(" "), _c("router-view")], 1);
 };
 
 var staticRenderFns = [];
