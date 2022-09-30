@@ -1,18 +1,15 @@
 <template>
     <section>
-        <div>
-            <router-link to="/AboutPage">clicca qui</router-link>
-        </div>
-        <HomePage />
+        <HeaderComponent />
         <router-view></router-view>
     </section>
 </template>
 
 <script>
-    import HomePage from '../pages/HomePage.vue'
+import HeaderComponent from '../components/HeaderComponent.vue'
     export default{
-        components: {
-            HomePage,
+        components:{
+            HeaderComponent,
         }
     };
 </script>

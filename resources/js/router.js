@@ -1,5 +1,8 @@
 //!Importiamo VueRouter anche qui, basta solo questo per farlo funzionare
+import Vue from 'vue';
 import VueRouter from 'vue-router';
+
+Vue.use(VueRouter)
 
 //!Importiamo le pagine singole
 import HomePage from './pages/HomePage';
@@ -28,4 +31,4 @@ const router = new VueRouter({
     ],
 });
 
-export default router
+export default router;

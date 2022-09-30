@@ -1,15 +1,10 @@
 //! Importiamo Vue router
 
 import Vue from 'vue';
-import VueRouter from 'vue-router';
 
 //! Diciamo alla window(la nostra pagina) che Vue è richesto
 
 window.Vue = require('vue');
-
-//! Diciamo a Vue di usare VueRouter
-
-Vue.use(VueRouter)
 
 //! Importiamo App dalla cartella js/views e il router
 

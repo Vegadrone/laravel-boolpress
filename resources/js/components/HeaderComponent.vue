@@ -11,10 +11,10 @@
         <router-link class="nav-link" to="/">Home</router-link>
       </li>
       <li class="nav-item">
-       <router-link class="nav-link" to="/AboutPage">About</router-link>
+       <router-link class="nav-link" to="/about">About</router-link>
       </li>
       <li class="nav-item">
-       <router-link class="nav-link" to="/ContactsPage">Contacts</router-link>
+       <router-link class="nav-link" to="/contacts">Contacts</router-link>
       </li>
     </ul>
     <ul class="navbar-nav">
@@ -28,8 +28,8 @@
 </template>
 
 <script>
-export default {
 
+export default {
 }
 </script>
 

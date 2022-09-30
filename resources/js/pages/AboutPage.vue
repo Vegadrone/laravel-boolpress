@@ -1,5 +1,5 @@
 <template>
-    <h1>ciao</h1>
+    <h1>ABOUT</h1>
 </template>
 
 <script>
