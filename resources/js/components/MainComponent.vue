@@ -28,7 +28,7 @@ export default {
   },
   methods: {
     getPosts(postsPage = 1) {
-      console.warn("Chiamato");
+    //   console.warn("Chiamato");
       axios
         .get("/api/posts", {
           page: postsPage,

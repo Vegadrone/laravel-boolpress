@@ -1943,7 +1943,7 @@ __webpack_require__.r(__webpack_exports__);
       var _this = this;
 
       var postsPage = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : 1;
-      console.warn("Chiamato");
+      //   console.warn("Chiamato");
       axios__WEBPACK_IMPORTED_MODULE_1___default.a.get("/api/posts", {
         page: postsPage
       }).then(function (response) {
@@ -2063,13 +2063,6 @@ var render = function render() {
   var _vm = this,
       _c = _vm._self._c;
 
-  return _vm._m(0);
-};
-
-var staticRenderFns = [function () {
-  var _vm = this,
-      _c = _vm._self._c;
-
   return _c("nav", {
     staticClass: "navbar navbar-expand-lg navbar-light bg-light"
   }, [_c("a", {
@@ -2077,7 +2070,42 @@ var staticRenderFns = [function () {
     attrs: {
       href: "#"
     }
-  }, [_vm._v("Boolpress")]), _vm._v(" "), _c("button", {
+  }, [_vm._v("Boolpress")]), _vm._v(" "), _vm._m(0), _vm._v(" "), _c("div", {
+    staticClass: "collapse navbar-collapse",
+    attrs: {
+      id: "navbarSupportedContent"
+    }
+  }, [_c("ul", {
+    staticClass: "navbar-nav mr-auto"
+  }, [_c("li", {
+    staticClass: "nav-item active"
+  }, [_c("router-link", {
+    staticClass: "nav-link",
+    attrs: {
+      to: "/"
+    }
+  }, [_vm._v("Home")])], 1), _vm._v(" "), _c("li", {
+    staticClass: "nav-item"
+  }, [_c("router-link", {
+    staticClass: "nav-link",
+    attrs: {
+      to: "/AboutPage"
+    }
+  }, [_vm._v("About")])], 1), _vm._v(" "), _c("li", {
+    staticClass: "nav-item"
+  }, [_c("router-link", {
+    staticClass: "nav-link",
+    attrs: {
+      to: "/ContactsPage"
+    }
+  }, [_vm._v("Contacts")])], 1)]), _vm._v(" "), _vm._m(1)])]);
+};
+
+var staticRenderFns = [function () {
+  var _vm = this,
+      _c = _vm._self._c;
+
+  return _c("button", {
     staticClass: "navbar-toggler",
     attrs: {
       type: "button",
@@ -2089,37 +2117,21 @@ var staticRenderFns = [function () {
     }
   }, [_c("span", {
     staticClass: "navbar-toggler-icon"
-  })]), _vm._v(" "), _c("div", {
-    staticClass: "collapse navbar-collapse",
-    attrs: {
-      id: "navbarSupportedContent"
-    }
-  }, [_c("ul", {
-    staticClass: "navbar-nav mr-auto"
+  })]);
+}, function () {
+  var _vm = this,
+      _c = _vm._self._c;
+
+  return _c("ul", {
+    staticClass: "navbar-nav"
   }, [_c("li", {
-    staticClass: "nav-item active"
-  }, [_c("a", {
-    staticClass: "nav-link",
-    attrs: {
-      href: "#"
-    }
-  }, [_vm._v("Home "), _c("span", {
-    staticClass: "sr-only"
-  }, [_vm._v("(current)")])])]), _vm._v(" "), _c("li", {
     staticClass: "nav-item"
   }, [_c("a", {
     staticClass: "nav-link",
     attrs: {
-      href: "#"
+      to: "/admin"
     }
-  }, [_vm._v("About")])]), _vm._v(" "), _c("li", {
-    staticClass: "nav-item"
-  }, [_c("a", {
-    staticClass: "nav-link",
-    attrs: {
-      href: "#"
-    }
-  }, [_vm._v("Contacts")])])])])]);
+  }, [_vm._v("Login")])])]);
 }];
 render._withStripped = true;
 
@@ -2210,7 +2222,7 @@ var render = function render() {
   }, [_vm._v("\n      Il: " + _vm._s(_vm.post.post_date) + "\n    ")]), _vm._v(" "), _c("a", {
     staticClass: "btn btn-primary",
     attrs: {
-      href: "#"
+      to: "#"
     }
   }, [_vm._v("Leggi il post")])])]);
 };
@@ -2236,7 +2248,7 @@ var render = function render() {
   var _vm = this,
       _c = _vm._self._c;
 
-  return _c("div");
+  return _c("h1", [_vm._v("ciao")]);
 };
 
 var staticRenderFns = [];
@@ -2260,7 +2272,7 @@ var render = function render() {
   var _vm = this,
       _c = _vm._self._c;
 
-  return _c("div");
+  return _c("h1", [_vm._v("ciaociao")]);
 };
 
 var staticRenderFns = [];
@@ -2284,7 +2296,7 @@ var render = function render() {
   var _vm = this,
       _c = _vm._self._c;
 
-  return _c("section", [_c("HeaderComponent"), _vm._v(" "), _c("MainComponent")], 1);
+  return _c("section", [_c("HeaderComponent"), _vm._v(" "), _c("MainComponent"), _vm._v(" "), _c("router-view")], 1);
 };
 
 var staticRenderFns = [];

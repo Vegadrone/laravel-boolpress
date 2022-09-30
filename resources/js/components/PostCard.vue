@@ -12,7 +12,7 @@
        <p class="card-text">
         Il: {{post.post_date}}
       </p>
-      <a href="#" class="btn btn-primary">Leggi il post</a>
+      <a to="#" class="btn btn-primary">Leggi il post</a>
     </div>
   </div>
 </template>

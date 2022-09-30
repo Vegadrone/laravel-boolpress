@@ -2,6 +2,7 @@
   <section>
     <HeaderComponent />
     <MainComponent />
+    <router-view></router-view>
   </section>
 </template>
 
