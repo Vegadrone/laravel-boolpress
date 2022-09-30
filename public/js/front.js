@@ -2322,7 +2322,7 @@ var render = function render() {
 
   return _c("section", [_c("div", [_c("router-link", {
     attrs: {
-      to: "/about"
+      to: "/AboutPage"
     }
   }, [_vm._v("clicca qui")])], 1), _vm._v(" "), _c("HomePage"), _vm._v(" "), _c("router-view")], 1);
 };
